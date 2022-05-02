@@ -1,0 +1,95 @@
+/* gotham-ultra-regular - latin */
+@font-face {
+  font-family: "Gotham-Ultra";
+  font-style: normal;
+  src: url("../fonts/gotham-ultra.woff2") format("woff2"),
+    url("../fonts/gotham-ultra.woff") format("woff");
+}
+
+/* roboto-regular - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("roboto-v29-latin-regular.woff2") format("woff2"),
+    url("roboto-v29-latin-regular.woff") format("woff");
+}
+
+/* roboto-500 - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: url("roboto-v29-latin-500.woff2") format("woff2"),
+    url("roboto-v29-latin-500.woff") format("woff");
+}
+
+/* roboto-700 - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: url("roboto-v29-latin-700.woff2") format("woff2"),
+    url("roboto-v29-latin-700.woff") format("woff");
+}
+
+/* roboto-900 - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  src: url("roboto-v29-latin-900.woff2") format("woff2"),
+    url("roboto-v29-latin-900.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Untitled Sans";
+  font-weight: 400;
+  font-display: swap;
+  src: url("UntitledSansWeb-Regular.woff2") format("woff2"),
+    url("UntitledSansWeb-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Untitled Sans";
+  font-weight: 500;
+  font-display: swap;
+  src: url("UntitledSansWeb-Medium.woff2") format("woff2"),
+    url("UntitledSansWeb-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Söhne Mono";
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url("soehne-mono-web-buch.woff2") format("woff2"),
+    url("soehne-mono-web-buch.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Söhne Mono";
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+  src: url("soehne-mono-web-buch-kursiv.woff2") format("woff2"),
+    url("soehne-mono-web-buch-kursiv.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Söhne Mono";
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url("soehne-mono-web-kraftig.woff2") format("woff2"),
+    url("soehne-mono-web-kraftig.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Söhne Mono";
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+  src: url("soehne-mono-web-kraftig-kursiv.woff2") format("woff2"),
+    url("soehne-mono-web-kraftig-kursiv.woff") format("woff");
+}

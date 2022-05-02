@@ -1,0 +1,155 @@
+/**
+ * CONTENTS
+ *
+ * BASE
+ *
+ * BUTTON TYPES
+ *
+ * MODIFIERS
+ * Size
+ * Mode
+ */
+
+
+/*------------------------------------*\
+    BASE
+\*------------------------------------*/
+
+.softkeys {
+    display: table;
+    list-style: none;
+    margin: 2em auto;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    -webkit-touch-callout: none;
+    cursor:none !important;
+}
+
+.softkeys-tool {
+  display: table;
+  list-style: none;
+  margin: 2em auto;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1em;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-touch-callout: none;
+  cursor:none !important;
+}
+
+
+    .softkeys__btn {
+        display: inline-block;
+        text-align: center;
+        font-size: 1.5vw;
+        line-height: 1.4vw;
+        min-width: 0.9em;
+        padding: 0.6em 1.0em 0.8em;
+        margin: 0.1em 0.1em 0.3em 0.2em;
+        border: 0.2px solid rgba(242, 146, 0, 0.9);
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        cursor:none !important;
+    }
+
+/*------------------------------------*\
+    .softkeys__btn:hover, .softkeys__btn:focus {
+         outline: none;
+         background-color: rgba(0,255,255,1);
+         border-color: rgba(255,255,255,0.4);
+         color: #fff;
+         cursor:none !important;
+    }
+\*------------------------------------*/
+
+/*------------------------------------*\
+       .softkeys__btn:hover, .softkeys__btn:focus {
+            outline: none;
+            background-color: #4b94ce;
+            border-color: #4b94ce;
+            color: #fff;
+        }
+\*------------------------------------*/
+
+        .softkeys__btn span {
+            display: none;
+            cursor:none !important;
+        }
+            .softkeys__btn span:first-child {
+                display: block;
+                cursor:none !important;
+            }
+
+
+    .softkeys__new-row:before {
+        display: block;
+        content: ' ';
+        width: 100%;
+        cursor:none !important;
+    }
+
+
+
+
+
+/*------------------------------------*\
+    BUTTON TYPEs
+\*------------------------------------*/
+.softkeys__btn--space {
+    width: 20em;
+}
+
+/*------------------------------------*\
+    SIZE MODIFIERS
+\*------------------------------------*/
+
+.softkeys--sm { font-size: 0.8em; }
+.softkeys--md { font-size: 1em;   }
+.softkeys--lg { font-size: 1.2em; }
+.softkeys--xl { font-size: 1.4em; }
+
+
+/*------------------------------------*\
+    MODE MODIFIERS
+\*------------------------------------*/
+
+/*.softkeys--caps*/
+    .softkeys--caps .softkeys__btn[data-type=capslock] {
+        background-color: #4b94ce;
+        border-color: #4b94ce;
+        cursor:none !important;
+
+    }
+
+    .softkeys--caps .softkeys__btn[data-type=letter] {
+        text-transform: uppercase;
+        cursor:none !important;
+    }
+
+/*.softkeys--alt*/
+
+    .softkeys--alt .softkeys__btn[data-type=shift] {
+        background-color: #4b94ce;
+        border-color: #4b94ce;
+        cursor:none !important;
+    }
+
+    .softkeys--alt .softkeys__btn[data-type=symbol] span {
+        display: none;
+    }
+
+    .softkeys--alt .softkeys__btn[data-type=symbol] span:last-child {
+        display: block;
+    }
